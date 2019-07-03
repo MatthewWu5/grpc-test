@@ -14,9 +14,9 @@ var packageDefinition = protoLoader.loadSync(PROTO_PATH, {
 var user = grpc.loadPackageDefinition(packageDefinition).user
 
 var client = new user.Account(
-  // "13.94.24.239:3411",
+  "13.94.24.239:3411",
   // "10.208.20.103:8080",
-  "localhost:3411",
+//   "118.25.57.50:3411",
   grpc.credentials.createInsecure()
 )
 // 调用接口方法

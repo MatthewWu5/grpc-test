@@ -22,6 +22,6 @@ server.addService(user.Account.service, {
     })
   }
 })
-server.bind("localhost:3411", grpc.ServerCredentials.createInsecure())
+server.bind("0.0.0.0:3411", grpc.ServerCredentials.createInsecure())
 server.start()
 console.log("listening...")
