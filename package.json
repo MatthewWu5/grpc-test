@@ -18,6 +18,6 @@
   "homepage": "https://github.com/MatthewWu5/grpc-test#readme",
   "dependencies": {
     "@grpc/proto-loader": "^0.5.1",
-    "grpc": "^1.21.1"
+    "grpc": "^1.24.9"
   }
 }
